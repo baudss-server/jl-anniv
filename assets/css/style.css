@@ -407,21 +407,24 @@ h2 {
     }
 }
 
-/* --- Footer Styles --- */
+/* --- Footer Styles (UPDATED) --- */
 .anniversary-footer {
     text-align: center;
     padding: 20px;
     background-color: transparent;
-    color: #ff0000;
+    color: #ff0000; /* Matingkad na red */
     font-size: 1.5rem;
     font-weight: bold;
     margin-top: 40px;
+    width: 100%;
 }
 
-/* Responsive adjustments para sa mobile */
+/* Tinitiyak na nakasentro at may tamang kulay sa mobile */
 @media screen and (max-width: 767px) {
     .anniversary-footer {
         font-size: 1.2rem;
         padding: 15px;
+        text-align: center;
+        color: #ff0000;
     }
 }
