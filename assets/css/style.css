@@ -406,3 +406,22 @@ h2 {
         border-right: none;
     }
 }
+
+/* --- Footer Styles --- */
+.anniversary-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: transparent;
+    color: #ff0000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+/* Responsive adjustments para sa mobile */
+@media screen and (max-width: 767px) {
+    .anniversary-footer {
+        font-size: 1.2rem;
+        padding: 15px;
+    }
+}
